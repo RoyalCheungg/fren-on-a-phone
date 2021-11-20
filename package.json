@@ -10,7 +10,12 @@
     "react-chatbot-kit": "^2.0.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+<<<<<<< HEAD
     "socket.io-client": "^4.4.0",
+=======
+    "react-snowstorm": "^0.0.3",
+    "react-tsparticles": "^1.37.4",
+>>>>>>> ff192d34b1a31d514ccc3f8b41cf95f4f890b0b3
     "web-vitals": "^1.1.2"
   },
   "scripts": {
