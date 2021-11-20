@@ -2,11 +2,28 @@
 #activate virtual environment venv:  source env/bin/activate,  to leave env: deactivate
 # freeze > requirements.txt to save requirements while in venv
 # to run: $ export FLASK_APP=app
-#$ flask run
+#           flask run
 from flask import Flask, render_template
 from flask_socketio import SocketIO
+#from keras.models import load_model
 # socket is needed to establish path through which one computer can interact with the other
 # Flask-SocketIO gives flask applications access to bi-directional communications between the clients and the server.
+
+
+
+# func getEmotion in sentences:
+#     print(sentence)
+#     sentence = clean(sentence)
+#     sentence = tokenizer.texts_to_sequences([sentence])
+#     sentence = pad_sequences(sentence, maxlen=256, truncating='pre')
+#     result = le.inverse_transform(np.argmax(model.predict(sentence), axis=-1))[0]
+#     proba =  np.max(model.predict(sentence))
+#     print(f"{result} : {proba}\n\n")
+
+# global model
+# model = tf.keras.models.load_model("cnn_covid_x-ray_v1.h5")
+# print("* Model loaded!")
+
 
 app = Flask(__name__)
 #app.config['SECRET_KEY'] = 'vnkdjnfjknfl1232#'
