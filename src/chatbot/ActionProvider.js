@@ -1,4 +1,6 @@
 // ActionProvider starter code
+
+import socketIOClient from 'socket.io-client';
 class ActionProvider {
     constructor(
      createChatBotMessage,
@@ -6,7 +8,7 @@ class ActionProvider {
      createClientMessage,
      stateRef,
      createCustomMessage,
-     ...rest
+
    ) {
      this.createChatBotMessage = createChatBotMessage;
      this.setState = setStateFunc;
@@ -15,5 +17,19 @@ class ActionProvider {
      this.createCustomMessage = createCustomMessage;
    }
 }
+
+// function handleInput(socket,message){
+//     socket.on(message,(data)=>{
+//       const message = this.createChatBotmessage('Hello. Nice to meet you.');
+
+//     this.setState((prev) => ({
+//       ...prev,
+//       messages: [...prev.messages, botMessage],
+//     }));
+//   }
+// }
+//     });
+
+// }
  
 export default ActionProvider;
