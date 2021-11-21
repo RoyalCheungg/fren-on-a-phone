@@ -11,7 +11,7 @@ class MessageParser {
 
   
     parse(message) {
-      socket.emit(message);
+      //socket.emit(message);
       //this.actionProvider.handleInput(this.socket,message);
     }
 }
