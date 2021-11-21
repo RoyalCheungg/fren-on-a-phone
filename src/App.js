@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
 import { Particles } from "react-tsparticles";
-
 import { ChatbotShell } from './Components/ChatbotShell.js'
+import BotAvatar from "./Components/BotAvatar/BotAvatar";
+
 
 
 function App() {
@@ -14,12 +15,8 @@ function App() {
         <Particles
           id="tsparticles"
           options={{
-            background: {
-              color: {
-                value: "#CBC3E3",
-              },
-            },
-            fpsLimit: 60,           
+
+            fpsLimit: 60,
             particles: {
               color: {
                 value: "#ffffff",
@@ -68,7 +65,10 @@ function App() {
         <ChatbotShell
           id="ChatbotShell">
         </ChatbotShell>
-        
+
+   
+    
+
       </div>
 
     </div>

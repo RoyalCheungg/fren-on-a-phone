@@ -1,7 +1,9 @@
 
 .App {
   text-align: center;
-  background-color: #CBC3E3;
+  /*background-color: #CBC3E3; */
+  background: radial-gradient(ellipse at top, #cbc3e3, transparent),
+            radial-gradient(ellipse at bottom, #89cff0 , transparent);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -16,7 +18,13 @@
 
 .ChatbotShell{
   z-index: 1;
-  position:relative;
+  position:relative; 
 }
+
+
+
+
+
+ 
 
 
