@@ -1,6 +1,4 @@
-import socketIOClient from 'socket.io-client';
-import { io } from "socket.io-client";
-var WebSocketClient = require('websocket').client;
+
 const MonkeyLearn = require('monkeylearn')
 // MessageParser starter code
 class MessageParser {
