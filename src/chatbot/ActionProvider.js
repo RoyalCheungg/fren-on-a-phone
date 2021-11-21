@@ -1,35 +1,34 @@
 // ActionProvider starter code
-
-import socketIOClient from 'socket.io-client';
+import { createChatBotMessage } from 'react-chatbot-kit';
 class ActionProvider {
     constructor(
-     createChatBotMessage,
-     setStateFunc,
-     createClientMessage,
-     stateRef,
-     createCustomMessage,
+      createChatbotMessage, setStateFunc, createClientMessage,
 
    ) {
-     this.createChatBotMessage = createChatBotMessage;
-     this.setState = setStateFunc;
-     this.createClientMessage = createClientMessage;
-     this.stateRef = stateRef;
-     this.createCustomMessage = createCustomMessage;
+    this.createChatbotMessage = createChatbotMessage;
+    this.setState = setStateFunc;
+    this.createClientMessage = createClientMessage;
    }
+
+ 
+ 
+
+    getResponse(responseMsg){
+    const botMessage = createChatBotMessage(responseMsg);
+  
+      this.setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, botMessage],
+      }));
+    }
+  
+  
+   
 }
 
-// function handleInput(socket,message){
-//     socket.on(message,(data)=>{
-//       const message = this.createChatBotmessage('Hello. Nice to meet you.');
 
-//     this.setState((prev) => ({
-//       ...prev,
-//       messages: [...prev.messages, botMessage],
-//     }));
-//   }
-// }
-//     });
-
-// }
+  
+  
  
+
 export default ActionProvider;
