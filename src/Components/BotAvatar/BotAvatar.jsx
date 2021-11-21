@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
 import llama from "./cutellama-mod.jpg";
+=======
+import llama from "./cutellama.jpg";
+>>>>>>> rBranch
 
 
 const BotAvatar = () => {
