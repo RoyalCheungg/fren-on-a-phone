@@ -4,15 +4,23 @@ import { createChatBotMessage } from "react-chatbot-kit";
 import BotAvatar from "../Components/BotAvatar/BotAvatar";
 import UserAvatar from "../Components/UserAvatar/UserAvatar";
 
+const randMsg = ["Hello, how are you today? What is on your mind? ",
+  "How are you feeling today?",
+  "I love spending time with you!",
+  "You are loved :)" ];
+
+const random = randMsg[Math.floor(Math.random() * randMsg.length)]
 
 const config = {
-  initialMessages: [createChatBotMessage(`Hello I am your friend on a phone if you ever need to chat let me know`)]
+
+  initialMessages: [createChatBotMessage(random)]
   , customStyles: { botMessageBox: { backgroundColor: "#89CFF0" } }
   , botName: "Friend-On-A-Phone"
   , customComponents:
   {
     botAvatar: (props) => <BotAvatar {...props} />,
-    userAvatar: (props) => <UserAvatar {...props} />
+    userAvatar: (props) => <UserAvatar {...props} />,
+    header: () => <div> Friend-On-A-Phone </div>
 
   }
 
