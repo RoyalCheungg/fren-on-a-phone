@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/fren-on-a-phone/static/css/main.62b53aaa.chunk.css",
-    "main.js": "/fren-on-a-phone/static/js/main.2c74afe1.chunk.js",
-    "main.js.map": "/fren-on-a-phone/static/js/main.2c74afe1.chunk.js.map",
-    "runtime-main.js": "/fren-on-a-phone/static/js/runtime-main.4660c2a2.js",
-    "runtime-main.js.map": "/fren-on-a-phone/static/js/runtime-main.4660c2a2.js.map",
+    "main.js": "/fren-on-a-phone/static/js/main.715ba812.chunk.js",
+    "main.js.map": "/fren-on-a-phone/static/js/main.715ba812.chunk.js.map",
+    "runtime-main.js": "/fren-on-a-phone/static/js/runtime-main.b9d0bb17.js",
+    "runtime-main.js.map": "/fren-on-a-phone/static/js/runtime-main.b9d0bb17.js.map",
     "static/css/2.5963fa84.chunk.css": "/fren-on-a-phone/static/css/2.5963fa84.chunk.css",
-    "static/js/2.4eb81d31.chunk.js": "/fren-on-a-phone/static/js/2.4eb81d31.chunk.js",
-    "static/js/2.4eb81d31.chunk.js.map": "/fren-on-a-phone/static/js/2.4eb81d31.chunk.js.map",
-    "static/js/3.6c8f603e.chunk.js": "/fren-on-a-phone/static/js/3.6c8f603e.chunk.js",
-    "static/js/3.6c8f603e.chunk.js.map": "/fren-on-a-phone/static/js/3.6c8f603e.chunk.js.map",
+    "static/js/2.b3b3e072.chunk.js": "/fren-on-a-phone/static/js/2.b3b3e072.chunk.js",
+    "static/js/2.b3b3e072.chunk.js.map": "/fren-on-a-phone/static/js/2.b3b3e072.chunk.js.map",
+    "static/js/3.36efdf6d.chunk.js": "/fren-on-a-phone/static/js/3.36efdf6d.chunk.js",
+    "static/js/3.36efdf6d.chunk.js.map": "/fren-on-a-phone/static/js/3.36efdf6d.chunk.js.map",
     "index.html": "/fren-on-a-phone/index.html",
     "static/css/2.5963fa84.chunk.css.map": "/fren-on-a-phone/static/css/2.5963fa84.chunk.css.map",
     "static/css/main.62b53aaa.chunk.css.map": "/fren-on-a-phone/static/css/main.62b53aaa.chunk.css.map",
-    "static/js/2.4eb81d31.chunk.js.LICENSE.txt": "/fren-on-a-phone/static/js/2.4eb81d31.chunk.js.LICENSE.txt",
+    "static/js/2.b3b3e072.chunk.js.LICENSE.txt": "/fren-on-a-phone/static/js/2.b3b3e072.chunk.js.LICENSE.txt",
     "static/media/cutellama.e0ee1838.jpg": "/fren-on-a-phone/static/media/cutellama.e0ee1838.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4660c2a2.js",
+    "static/js/runtime-main.b9d0bb17.js",
     "static/css/2.5963fa84.chunk.css",
-    "static/js/2.4eb81d31.chunk.js",
+    "static/js/2.b3b3e072.chunk.js",
     "static/css/main.62b53aaa.chunk.css",
-    "static/js/main.2c74afe1.chunk.js"
+    "static/js/main.715ba812.chunk.js"
   ]
 }
