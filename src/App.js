@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import { Particles } from "react-tsparticles";
 import { ChatbotShell } from './Components/ChatbotShell.js'
-import BotAvatar from "./Components/BotAvatar/BotAvatar";
 
 
 

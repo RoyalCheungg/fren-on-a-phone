@@ -1,5 +1,5 @@
 import React from "react";
-import llama from "./cutellama-mod.jpg";
+import llama from "./cutellama.jpg";
 
 
 const BotAvatar = () => {
