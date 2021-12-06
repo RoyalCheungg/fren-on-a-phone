@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> chatmsg
 const MonkeyLearn = require('monkeylearn')
 // MessageParser starter code
 
